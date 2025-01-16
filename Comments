@@ -1,0 +1,70 @@
+<html><head><title>contact us </title></head>
+<body background="oromia.jpg"  VLINK=VIOLET>
+<table width=60% align="center"  cellspacing="0%" cellpadding="0%" height=12  >
+<tr>
+<td align="left" height="90%"  ><marquee  direction="left" behavior="alternate" scrolldelay="100%" bgcolor="#008000"  >
+<font color="#ffff00" dir="ltr" id="font_20090607210659" face="Jokerman" size="6" >city administration</font></marquee></td>
+<td align="center" height="3%"><marquee  direction="left" behavior="Slide" lang="ar" scrolldelay="90%" bgcolor="#ffff00">
+ 
+</table><a href="#">Homepage</a>
+
+<h2 align="center"><font face="monotype corsiva" color="gold" >
+
+
+
+<form >
+
+	<div class="search">
+
+		<input name="searchword" id="mod_search_searchword" maxlength="20" alt="Search" class="inputbox" type="text" size="20" value="search..."  onblur="if(this.value=='') this.value='search...';" onfocus="if(this.value=='search...') this.value='';" />	</div>
+
+	<input type="hidden" name="task"   value="search" />
+	<input type="hidden" name="option" value="com_search" />
+</form>
+
+
+
+<br><hr color="red"></font></h2>
+<table align="center" border="2" bgcolor="#ffcc99"><tr><td><font color="#660000">
+<form name="regfrm" onclick="validate()">
+Please feel free to send us any comment, questions or suggestions.<br>
+ We will respond through the e-mail address you provide us at our earliest convenience. 
+
+
+
+<textarea name="comment"  row="15" cols="42"></textarea><br><br>
+
+<br>
+<hr>
+<b>Tell us how to get in touch with you:<br><br>
+Name:   <input type="text" name="txt2"><BR> <BR>
+Enter Password:    <input type="password" name="p1"><br><BR>
+Confirm Password:  <input type="password" name="p2"><br><Br>
+(<font color="red"size="2">the password you entered must be matched</font>)<br><br>
+E-mail:  <input type="text" name="txt2"><BR><br>
+Country: <select name="ctry">
+<option value="Ethiopia">Ethiopia
+
+<option value="Sudan">Sudan
+<option value="Somalia">Somalia
+<option value="UK">UK
+<option value="USA">USA
+<option value="KSA">KSA
+<option value="SA">SA
+<option value="africa">africa
+<option value ="kenya">kenya
+
+</select>
+
+<br><hr color"navy">
+<br><tr><td bgcolor="#21da13">
+
+<input type="checkbox" name="ContactRequested" value="ContactRequested">Please contact me as soon as possible regarding this matter
+<tr><td><p><input type="submit" value="Submit Comments">
+	<input type="reset" value="Clear Form"></p>
+</tr></td>
+
+</form></td></tr></font></table>
+
+</body>
+</html>
